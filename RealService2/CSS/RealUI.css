@@ -1,0 +1,74 @@
+﻿div.Main
+{
+	background-image: url('../Images/soil.png');
+	width: 1258px;
+	background-repeat: repeat-y;
+    background-color: #FFFFFF;
+    border-width: medium;
+    border-style: solid;
+    border-color: Black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.Banner
+{
+    background-image: url('../Images/banner.png');
+    width: 1258px;
+    height: 209px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.Nav
+{
+	background-image: url('../Images/nav.png');
+	width: 1257px;
+    height: 35px;
+    border-width: thin;
+    border-style: dashed;
+    border-color: Black;
+}
+
+.Nav li
+{
+   text-align: center;
+   list-style:none;
+   float:left;
+   border:none;  
+   background:url("../Images/tabs.png") no-repeat;
+   width:79px;  
+  
+   /*
+    height:24px;
+   */
+}
+
+.links a
+{
+	position:relative;
+	text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    list-style-type: none;
+    top: 2px;
+    left: 0px;
+    color: Maroon;  
+}
+
+div.Content
+{
+    background-color: #FFFFFF;
+    background-repeat: repeat-y;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.UI
+{
+    width: 33%;
+    height: 142px;
+    border-width: thin;
+    border-style: ridge;
+    border-color: Black;
+}
